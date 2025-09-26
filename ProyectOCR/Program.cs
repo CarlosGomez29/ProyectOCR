@@ -34,7 +34,7 @@ namespace ProyectOCR
                 // Crear servicio OCR
                 ServicesOCR ocrService = new ServicesOCR(inputPath, outputPath, tessDataPath, ocrLang);
 
-                // Procesar todas las imágenes en input
+                // Procesar todas las imágenes en la carpeta input
                 ocrService.ProcessAllImages();
             }
             catch (Exception ex)
